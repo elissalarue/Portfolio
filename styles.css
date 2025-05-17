@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Landing Page*/
+body, html {
+  background-image: url("/images/petals.png");
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  color: white;
+  background-color: #333;
+}
+
+.hero {
+
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+   margin-bottom: .25rem;
+}
+
+.hero .content {
+  background-color: rgb(0 0 0 / 50%);
+  padding: 2rem;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+}
+
+section {
+  padding: 5rem 2rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+/*Projects*/
+.projects .project-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project {
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 250px;
+}
+
+
+#projects{
+  color: white;
+  padding: 2rem;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*image carousel */
+#examples{
+  color: white;
+  padding: 2rem;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-wrapper {
+  max-width: 600px; /* or whatever width you want */
+  margin: 0 auto;   /* centers the carousel horizontally */
+}
+
+.carousel-inner img {
+  max-height: 500px; /* adjust height to keep images smaller */
+  object-fit: cover;
+  width: 100%;
+}
+/*Links*/
+#examples ul {
+  list-style: none;  
+  padding-left: 0; 
+}
+
+#examples a {
+  text-decoration: none;
+  color: white;
+}
+
+#examples a:hover {
+  text-decoration: underline;
+}
+
+/*Table*/
+#skills {
+  color: white;
+  padding: 2rem;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 2rem; /* Rounded corners */
+  background-color: rgb(0 0 0 / 50%);
+  margin-bottom: 4rem;
+}
+
+/*Contact Form*/
+#contact {
+  color: white;
+  padding: 2rem;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  border: 2px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+/* Send button */
+button {
+  background-color: #aaa;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #555;
+}
+/* clear*/
+button[type="reset"] {
+  background-color: #aaa;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+button[type="reset"]:hover {
+  background-color: #888;
+}
+
+/*contact error message*/
+.error {
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+  display: none;
+}
+
+#formMessage {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+#contactForm {
+  color: white;
+  padding: 2rem;
+  border-radius: 10px; 
+}
+
+/*Footer*/
+footer{
+  color: white;
+  background-color: rgb(0 0 0 / 50%);
+  border-radius: 1rem;
+}
